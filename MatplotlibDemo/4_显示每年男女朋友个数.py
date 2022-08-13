@@ -5,8 +5,8 @@ from matplotlib import pyplot as plt
 plt.rcParams['font.sans-serif'] = ['SimHei']
 
 x = range(11, 31)
-y_1 = [random.randint(1, 10) for i in range(11, 31)]  # 自己的女朋友个数
-y_2 = [random.randint(1, 10) for j in range(11, 31)]  # 同桌的女朋友个数
+y_1 = [random.randint(1, 10) for i in range(31+1)]  # 自己的女朋友个数
+y_2 = [random.randint(1, 10) for j in range(31+1)]  # 同桌的女朋友个数
 
 plt.figure(figsize=(12, 8), dpi=80)
 plt.plot(x, y_1, label='自己', color='orange', linestyle=':', linewidth=5,alpha=0.8)  # 设置图例名、线条颜色、线型、宽度

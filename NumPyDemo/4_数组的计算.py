@@ -24,4 +24,8 @@ t7 = t1 + t6
 print(t6)
 print(t7)
 
+t8 = np.arange(3).reshape((3,1))
+print(t8)
+t9 = t7-t8
+print(t9)
 
